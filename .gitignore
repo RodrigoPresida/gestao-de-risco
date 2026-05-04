@@ -1,0 +1,10 @@
+data/*.json
+data/*.zip
+notebooks/.ipynb_checkpoints
+__pycache__/
+.env
+outputs/
+.gemini/
+GEMINI.md
+MEMORY.md
+*.log
