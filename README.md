@@ -19,6 +19,10 @@ Sistema de **Legal Operations Analytics** que transforma dados brutos de tribuna
 - **Gestão de Risco** — Matriz de risco: probabilidade de perda × custo de defesa × valor da causa
 - **Decisão Baseada em Dados** — Dashboards interativos com KPIs críticos para Legal Ops
 
+## Dashboard Executivo
+
+![Dashboard Legal Ops Strategic Analytics](dashboard_jurimetria.png)
+
 ## Notebooks
 
 | # | Notebook | Descrição | Status |
@@ -75,6 +79,7 @@ gestao-de-risco/
 ├── scripts/
 │   └── enrich_legal_data.py            # Pipeline de enriquecimento (JSON → CSV)
 ├── extrair_metricas.py                 # Extração rápida de métricas via console
+├── dashboard_jurimetria.png            # Dashboard executivo do projeto
 ├── requirements.txt
 └── README.md
 ```
