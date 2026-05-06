@@ -6,7 +6,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-lightblue?logo=pandas)
 ![Dados](https://img.shields.io/badge/dados-Tribunais%20Brasileiros-orange)
 
-> "Em dados jurídicos, o custo de defesa muitas vezes rivaliza com o valor da causa — e quase ninguém está medindo isso."
+> "Em dados jurídicos, o custo de defesa muitas vezes rivaliza com o valor da causa, e quase ninguém está medindo isso."
 
 ## Sobre o Projeto
 
@@ -14,10 +14,10 @@ Sistema de **Legal Operations Analytics** que transforma dados brutos de tribuna
 
 **4 pilares da análise:**
 
-- **Inteligência Financeira** — Provisões contábeis (CPC 25), exposição financeira e custo de defesa
-- **Eficiência Operacional** — Lead time processual, gargalos por UF e tipo de ação
-- **Gestão de Risco** — Matriz de risco: probabilidade de perda × custo de defesa × valor da causa
-- **Decisão Baseada em Dados** — Dashboards interativos com KPIs críticos para Legal Ops
+- **Inteligência Financeira:** Provisões contábeis (CPC 25), exposição financeira e custo de defesa
+- **Eficiência Operacional:** Lead time processual, gargalos por UF e tipo de ação
+- **Gestão de Risco:** Matriz de risco: probabilidade de perda × custo de defesa × valor da causa
+- **Decisão Baseada em Dados:** Dashboards interativos com KPIs críticos para Legal Ops
 
 ## Dashboard Executivo
 
@@ -39,14 +39,14 @@ Sistema de **Legal Operations Analytics** que transforma dados brutos de tribuna
 | Total provisionado (CPC 25) | **R$ 959 milhões** |
 | Risco Provável | **71%** (3.547 processos) |
 | Risco Possível | **29%** (1.453 processos) |
-| Risco Remoto | **0%** — nenhum processo é tranquilo |
+| Risco Remoto | **0%.** Nenhum processo é tranquilo |
 | Lead time médio | **2.107 dias** (~5,8 anos) |
 | Lead time mediano | **1.474 dias** (~4 anos) |
 | Custo de defesa médio | **R$ 89.099** por processo |
 | Custo de defesa total | **R$ 445 milhões** |
-| Custo/Valor da causa | **34,7%** — a cada R$ 100 em risco, R$ 34 vão para honorários e custas |
+| Custo/Valor da causa | **34,7%.** A cada R$ 100 em risco, R$ 34 vão para honorários e custas |
 | Concentração em SP | **99,6%** dos processos (4.978 de 5.000) |
-| Eficiência SP vs RS | SP **70,2** vs RS **83,2** — mais volume não significa mais eficiência |
+| Eficiência SP vs RS | SP **70,2** vs RS **83,2.** Mais volume não significa mais eficiência |
 | Tipo de ação principal | **Cível - Execução** (52,6%) |
 
 ## Metodologia
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-O dataset já está incluído em `data/` (584 KB). O script de enriquecimento (`scripts/enrich_legal_data.py`) espera o JSON bruto do Kaggle — [Brazilian Legal Proceedings](https://www.kaggle.com/datasets/eduardowoj/bzln Brazilian-legal-proceedings).
+O dataset já está incluído em `data/` (584 KB). O script de enriquecimento (`scripts/enrich_legal_data.py`) espera o JSON bruto do Kaggle: [Brazilian Legal Proceedings](https://www.kaggle.com/datasets/eduardowoj/bzln Brazilian-legal-proceedings).
 
 ## Stack
 
@@ -107,7 +107,7 @@ O dataset já está incluído em `data/` (584 KB). O script de enriquecimento (`
 
 ## Autor
 
-**Rodrigo Cruz dos Santos** — Analista de Dados e Desenvolvedor Python
+**Rodrigo Cruz dos Santos,** Analista de Dados e Desenvolvedor Python
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodrigo%20Cruz-blue?logo=linkedin)](https://www.linkedin.com/in/rodrigocruzsantos/)
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoPresida-black?logo=github)](https://github.com/RodrigoPresida)
